@@ -1,5 +1,5 @@
 ## C programming
 
-title: PAGE TITLE HERE
+title: C introduction
 layout: template
 filename: c_intro.md
