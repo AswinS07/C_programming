@@ -5,7 +5,7 @@ __C__ is a procedural programming language. It was initially developed by Dennis
 ## **Beginning with C programming:**
 
 
-1. **Structure of a C program**
+### 1. **Structure of a C program**
  After the above discussion, we can formally assess the structure of a C program. By structure, it is meant that any program can be written in this structure only. Writing a C program in any other structure will hence lead to a Compilation Error.
  The structure of a C program is as follows:
 
@@ -17,11 +17,12 @@ __C__ is a procedural programming language. It was initially developed by Dennis
   The first and foremost component is the inclusion of the Header files in a C program.
  A header file is a file with extension .h which contains C function declarations and macro definitions to be shared between several source files.
  Some of C Header files:
-    1. stdio.h – Defines core input and output functions
-    2. stdint.h – Defines exact width integer types.
-    3. stdlib.h – Defines numeric conversion functions, pseudo-random network generator, memory allocation
-    4. string.h – Defines string handling functions
-    5. math.h – Defines common mathematical functions
+  1.  stdio.h – Defines core input and output functions
+  2.  stdint.h – Defines exact width integer types.
+  3.  stdlib.h – Defines numeric conversion functions, pseudo-random network generator, memory allocation
+  4.  string.h – Defines string handling functions
+  5.  math.h – Defines common mathematical functions
+
  ### 2. **Main Method Declaration:** 
   The next part of a C program is to declare the main() function. The syntax to declare the main function is:
 **Syntax to Declare the**   **main method:**
