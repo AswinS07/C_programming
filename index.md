@@ -1,4 +1,3 @@
-## C programming
 
 title: C introduction
 layout: template
