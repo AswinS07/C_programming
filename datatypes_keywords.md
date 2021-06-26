@@ -20,33 +20,25 @@ Variable declaration refers to the part where a variable is first declared or in
 
 See the following C program for better clarification:
 
-        #include \&lt;stdio.h\&gt;
+       
+            #include <stdio.h>
+            int main()
+            {
+                // declaration and definition of variable 'a123'
+                char a123 = 'a';
 
-        int main()
+          // This is also both declaration and definition as 'b' is allocated
+          // memory and assigned some garbage value.  
+          float b; 
 
-        {
+          // multiple declarations and definitions
+          int _c, _d45, e;
 
-        // declaration and definition of variable &#39;a123&#39;
+          // Let us print a variable
+          printf("%c \n", a123);
 
-        char a123 = &#39;a&#39;;
-
-        // This is also both declaration and definition as &#39;b&#39; is allocated
-
-        // memory and assigned some garbage value.
-
-        float b;
-
-        // multiple declarations and definitions
-
-        int \_c, \_d45, e;
-
-        // Let us print a variable
-
-        printf(&quot;%c \n&quot;, a123);
-
-        return 0;
-
-        }
+                return 0;
+            }
 
 #### **Output:**
 
@@ -76,21 +68,15 @@ to be initialized before use.
 
 Example –
 
-        #include \&lt;stdio.h\&gt;
+            #include <stdio.h>
+            void function() {
+              int x = 10; // local variable
+            }
 
-        void function() {
-
-        int x = 10; // local variable
-
-        }
-
-        int main()
-
-        {
-
-        function();
-
-        }
+            int main()
+            {
+              function();
+            }
 
 In the above code x can be used only in the scope of function() . Using it in main function will give error.
 
@@ -102,35 +88,23 @@ It is declared at the starting of program. It is available to all the functions.
 
 Example –
 
-        #include \&lt;stdio.h\&gt;
+             #include <stdio.h>
+        
+            int x = 20;//global variable
+            void function1()
+            {
+              printf("%d\n" , x);
+            }
+            void function2()
+            {
+              printf("%d\n" , x);
+            }
+            int main() {
 
-        int x = 20;//global variable
-
-        void function1()
-
-        {
-
-        printf(&quot;%d\n&quot; , x);
-
-        }
-
-        void function2()
-
-        {
-
-        printf(&quot;%d\n&quot; , x);
-
-        }
-
-        int main() {
-
-        function1();
-
-        function2();
-
-        return 0;
-
-        }
+              function1();
+              function2();
+                return 0;
+            }
 
    **Output**
 
@@ -148,41 +122,30 @@ It is declared with the static keyword.
 
 Example-
 
-        #include \&lt;stdio.h\&gt;
+       
+            #include <stdio.h>
+            void function(){ 
+            int x = 20;//local variable 
+            static int y = 30;//static variable 
+            x = x + 10; 
+            y = y + 10; 
+            printf("\n%d,%d",x,y); 
+            } 
+            int main() {
 
-        void function(){
-
-        int x = 20;//local variable
-
-        static int y = 30;//static variable
-
-        x = x + 10;
-
-        y = y + 10;
-
-        printf(&quot;\n%d,%d&quot;,x,y);
-
-        }
-
-        int main() {
-
-        function();
-
-        function();
-
-        function();
-
-        return 0;
-
-        }
+              function();
+              function();
+              function();
+              return 0;
+            }
 
 **Output**
 
-30,40
+            30,40
 
-30,50
+            30,50
 
-30,60
+            30,60
 
 In the above example , local variable will always print same value whenever function will be called whereas static variable will print the incremented value in each function call.
 
