@@ -12,8 +12,7 @@ __'C'__ is a procedural programming language. It was initially developed by Denn
 
 ![](c_structure.png)
 
-
-  ### 1. **Header Files Inclusion** : 
+ ### 1.**Header Files Inclusion** : 
   The first and foremost component is the inclusion of the Header files in a C program.
  A header file is a file with extension .h which contains C function declarations and macro definitions to be shared between several source files.
  Some of C Header files:
@@ -23,7 +22,7 @@ __'C'__ is a procedural programming language. It was initially developed by Denn
   4.  string.h – Defines string handling functions
   5.  math.h – Defines common mathematical functions
 
- ### 2. **Main Method Declaration:** 
+### 2. **Main Method Declaration:**
   The next part of a C program is to declare the main() function. The syntax to declare the main function is:
 **Syntax to Declare the**   **main method:**
 
