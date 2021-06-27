@@ -1,4 +1,6 @@
-> # Variables and Keywords in C
+
+
+# **Variables and Keywords in C**
 
 A variable in simple terms is a storage place which has some memory allocated to it. Basically, a variable used to store some form of data. Different types of variables require different amounts of memory, and have some specific set of operations which can be applied on them.
 
