@@ -38,11 +38,11 @@ The following table shows all relation operators supported by C.
 ## LOGICAL OPERATORS
 C language supports following 3 logical operators. Suppose a = 1 and b = 0,
 
-| Operator      | Description                   |  Example                      |
-| ------------- | ------------------------------| ------------------------------|
-|&&             |	Logical AND                   |	(a && b) is false             |
-|||             |	Logical OR                    |	(a || b) is true              |
-|!              |	Logical NOT                   |	(!a) is false                 |
+| Operator      | Description                   |
+| ------------- | ------------------------------| 
+|&&             |	Logical AND                   |
+|               |	Logical OR                    |	
+|!              |	Logical NOT                   |	
 
 ## BITWISE OPERATORS
 Bitwise operators perform manipulations of data at bit level. These operators also perform shifting of bits from right to left. Bitwise operators are not applied to float or double.
@@ -50,7 +50,7 @@ Bitwise operators perform manipulations of data at bit level. These operators al
 | Operator      | Description                              |
 | ------------- | -----------------------------------------|
 |&              |	Bitwise AND                              |
-||              |	Bitwise OR                               |
+|               |	Bitwise OR                               |
 |^              |	Bitwise exclusive OR                     |
 |<<             |	left shift                               |
 |>>             |	right shift                              |
