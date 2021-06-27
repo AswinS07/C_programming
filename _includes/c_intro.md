@@ -5,14 +5,16 @@ __'C'__ is a procedural programming language. It was initially developed by Denn
 ## **Beginning with C programming:**
 
 
- ### 1. **Structure of a C program**
+ ### 1.**Structure of a C program:**
+ 
  After the above discussion, we can formally assess the structure of a C program. By structure, it is meant that any program can be written in this structure only. Writing a C program in any other structure will hence lead to a Compilation Error.
  The structure of a C program is as follows:
 
 
 ![](c_structure.png)
 
- ### 1.**Header Files Inclusion** : 
+ ### 2.**Header Files Inclusion:** 
+ 
   The first and foremost component is the inclusion of the Header files in a C program.
  A header file is a file with extension .h which contains C function declarations and macro definitions to be shared between several source files.
  Some of C Header files:
@@ -23,7 +25,7 @@ __'C'__ is a procedural programming language. It was initially developed by Denn
   5.  math.h – Defines common mathematical functions
   
 
-### 2. **Main Method Declaration:**
+### 3. **Main Method Declaration:**
   The next part of a C program is to declare the main() function. The syntax to declare the main function is:
 **Syntax to Declare the**   **main method:**
 
@@ -32,7 +34,7 @@ __'C'__ is a procedural programming language. It was initially developed by Denn
 
      {}
 
-### 2. **Variable Declaration:**  
+### 4. **Variable Declaration:**  
 The next part of any C program is the variable declaration. It refers to the variables that are to be used in the function. Please note that in the C program, no variable can be used without being declared. Also in a C program, the variables are to be declared before any operation in the function.
 **Example:**
 
@@ -45,7 +47,7 @@ The next part of any C program is the variable declaration. It refers to the var
 
 
 
-### 2. **Body:** 
+### 5. **Body:** 
 The body of a function in the C program, refers to the operations that are performed in the functions. It can be anything like manipulations, searching, sorting, printing, etc.
 **Example:**
 
@@ -60,7 +62,7 @@ The body of a function in the C program, refers to the operations that are perfo
 
 
 
-### 2. **Return Statement:**  
+### 6. **Return Statement:**  
 The last part of any C program is the return statement. The return statement refers to the returning of the values from a function. This return statement and return value depend upon the return type of the function. For example, if the return type is void, then there will be no return statement. In any other case, there will be a return statement and the return value will be of the type of the specified return type.
 **Example:**
 
