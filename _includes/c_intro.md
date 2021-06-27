@@ -41,7 +41,7 @@ The next part of any C program is the variable declaration. It refers to the var
 
      {
 
-     **int a;**
+     int a;
 
 
 
@@ -56,7 +56,7 @@ The body of a function in the C program, refers to the operations that are perfo
 
      int a;
 
-     **printf(&quot;%d&quot;, a);**
+     printf('%d";, a);
 
 
 
@@ -71,8 +71,12 @@ The last part of any C program is the return statement. The return statement ref
 
      int a;
 
-     printf(&quot;%d&quot;, a);
+     printf("%d";, a);
 
-     **return 0;**
+     return 0;
 
      }
+     
+     
+     
+     
