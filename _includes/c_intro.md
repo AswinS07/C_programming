@@ -5,17 +5,15 @@ __'C'__ is a procedural programming language. It was initially developed by Denn
 ## **Beginning with C programming:**
 
 
- ### 1.**Structure of a C program:**
- 
+ ### 1. **Structure of a C program:**
  After the above discussion, we can formally assess the structure of a C program. By structure, it is meant that any program can be written in this structure only. Writing a C program in any other structure will hence lead to a Compilation Error.
  The structure of a C program is as follows:
 
 
 ![](c_structure.png)
 
- ### 2.**Header Files Inclusion:** 
- 
-  The first and foremost component is the inclusion of the Header files in a C program.
+ ### 2. **Header Files Inclusion:** 
+ The first and foremost component is the inclusion of the Header files in a C program.
  A header file is a file with extension .h which contains C function declarations and macro definitions to be shared between several source files.
  Some of C Header files:
   1.  stdio.h – Defines core input and output functions
