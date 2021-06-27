@@ -4,7 +4,7 @@ __'C'__ is a procedural programming language. It was initially developed by Denn
  Many later languages have borrowed syntax/features directly or indirectly from the C language. Like syntax of Java, PHP, JavaScript, and many other languages are mainly based on the C language. C++ is nearly a superset of C language (Few programs may compile in C, but not in C++).
 ## **Beginning with C programming:**
 
-### 1. **Structure of A C Program:**
+### 1. **Structure of a C Program:**
  After the above discussion, we can formally assess the structure of a C program. By structure, it is meant that any program can be written in this structure only. Writing a C program in any other structure will hence lead to a Compilation Error.
  The structure of a C program is as follows:
 
