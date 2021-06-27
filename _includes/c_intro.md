@@ -21,6 +21,7 @@ __'C'__ is a procedural programming language. It was initially developed by Denn
   3.  stdlib.h – Defines numeric conversion functions, pseudo-random network generator, memory allocation
   4.  string.h – Defines string handling functions
   5.  math.h – Defines common mathematical functions
+  
 
 ### 2. **Main Method Declaration:**
   The next part of a C program is to declare the main() function. The syntax to declare the main function is:
