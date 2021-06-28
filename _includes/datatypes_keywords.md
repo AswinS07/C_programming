@@ -169,7 +169,7 @@ Keywords are specific reserved words in C each of which has a specific feature a
 
 There are a total of 44 keywords in C \(C89 – 32, C99 – 5, C11 – 7\):
 
-![](https://github.com/AswinS07/C_programming/tree/563981b7863523bc0a25d8caec16cb826dbc1f09/_includes/keywords.png)
+![](../.gitbook/assets/keywords.png)
 
 Most of these keywords have already been discussed in the various sub-sections of the C language, like Data Types, Storage Classes, Control Statements, Functions etc.
 
