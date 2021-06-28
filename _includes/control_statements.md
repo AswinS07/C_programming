@@ -26,7 +26,7 @@ The basic format of if statement is:
 
 Flowchart
 
-
+![](c-if.png)
 
 
 
@@ -47,7 +47,7 @@ The basic format of if else statement is:
 
 Flowchart
 
-
+![](c-if-else.png)
 
 
 ## Nested if-else Statement
