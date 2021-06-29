@@ -4,7 +4,7 @@
 
 A variable in simple terms is a storage place which has some memory allocated to it. Basically, a variable used to store some form of data. Different types of variables require different amounts of memory, and have some specific set of operations which can be applied on them.
 
-### 1.Variable Declaration:
+## 1.Variable Declaration:
 
 A typical variable declaration is of the form:
 
@@ -18,7 +18,7 @@ A typical variable declaration is of the form:
 
 A variable name can consist of alphabets \(both upper and lower case\), numbers and the underscore '\_' character. However, the name must not start with a number.
 
-### 2.Difference b/w variable declaration and definition
+## 2.Difference b/w variable declaration and definition
 
 Variable declaration refers to the part where a variable is first declared or introduced before its first use. Variable definition is the part where the variable is assigned a memory location and a value. Most of the times, variable declaration and definition are done together.
 
@@ -51,7 +51,7 @@ See the following C program for better clarification:
     a
 ```
 
-#### 3.Rules for defining variables
+## 3.Rules for defining variables
 
 A variable can have alphabets, digits, and underscore.
 
@@ -61,9 +61,9 @@ No whitespace is allowed within the variable name.
 
 A variable name must not be any reserved word or keyword, e.g. int, goto , etc.
 
-#### 4.Types of Variables in C
+## 4.Types of Variables in C
 
-**1. Local Variable**
+### **1. Local Variable**
 
 A variable that is declared and used inside the function or block is called local variable.
 
@@ -87,7 +87,7 @@ Example –
 
 In the above code x can be used only in the scope of function\(\) . Using it in main function will give error.
 
-**2. Global Variable**
+### **2. Global Variable**
 
 A variable that is declared outside the function or block is called a global variable.
 
@@ -125,7 +125,7 @@ Example –
 
 In the above code both the functions can use global variable x as we already global variables are accessible by all the functions.
 
-**3.Static Variable**
+### **3.Static Variable**
 
 A variable that retains its value between multiple function calls is known as static variable.
 
@@ -163,13 +163,13 @@ Example-
 
 In the above example , local variable will always print same value whenever function will be called whereas static variable will print the incremented value in each function call.
 
-## keywords in C
+# keywords in C
 
 Keywords are specific reserved words in C each of which has a specific feature associated with it. Almost all of the words which help us use the functionality of the C language are included in the list of keywords.
 
 There are a total of 44 keywords in C \(C89 – 32, C99 – 5, C11 – 7\):
 
-![](../.gitbook/assets/keywords.png)
+![](keywords.png)
 
 Most of these keywords have already been discussed in the various sub-sections of the C language, like Data Types, Storage Classes, Control Statements, Functions etc.
 
