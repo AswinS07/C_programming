@@ -28,7 +28,7 @@ if(test_expression)
 
 Flowchart
 
-![](../.gitbook/assets/c-if.png)
+![](c-if.png)
 
 ## if-else Statement
 
@@ -49,7 +49,7 @@ else
 
 Flowchart
 
-![](../.gitbook/assets/c-if-else.png)
+![](c-if-else.png)
 
 ## Nested if-else Statement
 
