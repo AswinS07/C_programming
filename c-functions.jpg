@@ -35,20 +35,21 @@ C function is a self-contained block of statements that can be executed repeated
 dataType functionName (Parameter List)
 
 ####Example:
-int addition();
+
+      int addition();
 
 # 2. Function Definition
 
 ####Syntax:
-returnType functionName(Function arguments){
-  //body of the function 
-}
+                  returnType functionName(Function arguments){
+                    //body of the function 
+                  }
 
-####Example:
-int addition()
-{
+                  ####Example:
+                  int addition()
+                  {
 
-}
+                  }
 
 # 3. Calling a function in C
 # Program to illustrate the Addition of Two Numbers using User Defined Function
