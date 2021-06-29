@@ -1,4 +1,4 @@
-# index
+
 
 {% include c_intro.md %}
 
@@ -12,4 +12,4 @@
 
 {% include control_statements.md %}
 
-% include c-functions.md %}
+{% include c-functions.md %}
