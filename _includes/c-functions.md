@@ -41,11 +41,12 @@ dataType functionName (Parameter List)
 # 2. Function Definition
 
 ####Syntax:
-                  returnType functionName(Function arguments){
-                    //body of the function 
-                  }
+                     
 
-                  ####Example:
+                  returnType functionName(Function arguments){
+                      //body of the function 
+                      }
+                      ####Example:
                   int addition()
                   {
 
@@ -54,31 +55,30 @@ dataType functionName (Parameter List)
 # 3. Calling a function in C
 # Program to illustrate the Addition of Two Numbers using User Defined Function
 
-####Example:
-#include<stdio.h>
+####Example
+                  
+      #include<stdio.h>
+            /* function declaration */int addition();
+      int main()
+      {   
+          /* local variable definition */    int answer;
 
-/* function declaration */int addition();
-
-int main()
-{   
-    /* local variable definition */    int answer;
-    
     /* calling a function to get addition value */    answer = addition();
 
     printf("The addition of the two numbers is: %d\n",answer);
     return 0;
-}
+      }
 
-/* function returning the addition of two numbers */int addition()
-{
-    /* local variable definition */    int num1 = 10, num2 = 5;
-    return num1+num2;
+            /* function returning the addition of two numbers */int addition()
+            {
+                /* local variable definition */    int num1 = 10, num2 = 5;
+                return num1+num2;
 
-}
+            }
 
 
 # Program Output:
-The addition of the two numbers is: 15
+      The addition of the two numbers is: 15
 
 
 
