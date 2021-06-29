@@ -29,7 +29,7 @@ C Constants is the most fundamental and essential part of the C programming lang
 
 #### Program Output:
 
-![](https://github.com/AswinS07/C_programming/tree/563981b7863523bc0a25d8caec16cb826dbc1f09/_includes/c-constants.jpg)
+![](../.gitbook/assets/c-constants.jpg)
 
 ## Constant Types in C
 
