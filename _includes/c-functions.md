@@ -23,13 +23,13 @@ C function is a self-contained block of statements that can be executed repeated
           
            These functions are defined by the user at the time of writing the program.
 
-# **Parts of Function**
+## **Parts of Function**
  
-# 1. Function Prototype
-# 2. Function Definition
-# 3. Calling a function in C
+### 1. Function Prototype
+### 2. Function Definition
+### 3. Calling a function in C
 
-# 1. Function Prototype
+## 1. Function Prototype
 
 ####Syntax:
 dataType functionName (Parameter List)
@@ -38,7 +38,7 @@ dataType functionName (Parameter List)
 
       int addition();
 
-# 2. Function Definition
+## 2. Function Definition
 
 ####Syntax:
                      
@@ -52,7 +52,7 @@ dataType functionName (Parameter List)
 
                   }
 
-# 3. Calling a function in C
+## 3. Calling a function in C
 # Program to illustrate the Addition of Two Numbers using User Defined Function
 
 ####Example
@@ -77,7 +77,7 @@ dataType functionName (Parameter List)
             }
 
 
-# Program Output:
+## Program Output:
       The addition of the two numbers is: 15
 
 
