@@ -1,10 +1,10 @@
-# variables\_keywords
 
-## **Variables and Keywords in C**
+
+# **Variables and Keywords in C**
 
 A variable in simple terms is a storage place which has some memory allocated to it. Basically, a variable used to store some form of data. Different types of variables require different amounts of memory, and have some specific set of operations which can be applied on them.
 
-### Variable Declaration:
+### 1.Variable Declaration:
 
 A typical variable declaration is of the form:
 
@@ -18,7 +18,7 @@ A typical variable declaration is of the form:
 
 A variable name can consist of alphabets \(both upper and lower case\), numbers and the underscore '\_' character. However, the name must not start with a number.
 
-### Difference b/w variable declaration and definition
+### 2.Difference b/w variable declaration and definition
 
 Variable declaration refers to the part where a variable is first declared or introduced before its first use. Variable definition is the part where the variable is assigned a memory location and a value. Most of the times, variable declaration and definition are done together.
 
@@ -51,7 +51,7 @@ See the following C program for better clarification:
     a
 ```
 
-#### Rules for defining variables
+#### 3.Rules for defining variables
 
 A variable can have alphabets, digits, and underscore.
 
@@ -61,7 +61,7 @@ No whitespace is allowed within the variable name.
 
 A variable name must not be any reserved word or keyword, e.g. int, goto , etc.
 
-#### Types of Variables in C
+#### 4.Types of Variables in C
 
 **1. Local Variable**
 
