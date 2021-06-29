@@ -11,3 +11,4 @@
 
 {% include control_statements.md %}
 
+{% include c-functions.md &}
