@@ -44,7 +44,7 @@ int addition()
 
 }
 
-Calling a function in C
+3. Calling a function in C
 
 Program to illustrate the Addition of Two Numbers using User Defined Function
 
