@@ -33,7 +33,7 @@ In an exit controlled loop, a condition is checked after executing the body of a
 | 2. | Do-While Loop | In a do...while loop, the condition is always executed after the body of a loop. It is also called an exit-controlled loop. |
 | 3. | For Loop | In a for loop, the initial value is performed only once, then the condition tests and compares the counter to a fixed value after each iteration, stopping the for loop when false is returned. |
 
-While Loop in C
+## While Loop in C
 
 A while loop is the most straightforward looping structure. While loop syntax in C programming language is as follows:
 
@@ -76,7 +76,7 @@ Output:
 		9
 		10
 
-**Do-While loop in C**
+## **Do-While loop in C**
 
 A do...while loop in C is similar to the while loop except that the condition is always executed after the body of a loop. It is also called an exit-controlled loop.
 
