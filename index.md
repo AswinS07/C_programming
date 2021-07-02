@@ -18,6 +18,8 @@
 
 {% include continue.md %}
 
+{% include loops.md %}
+
 {% include c-functions.md %}
 
 {% include c_function_arguments.md %}
