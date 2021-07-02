@@ -39,11 +39,11 @@ A while loop is the most straightforward looping structure. While loop syntax in
 
 Syntax of While Loop in C:
 
-while (condition) {
+		while (condition) {
 
-statements;
+		statements;
 
-}
+		}
 
 It is an entry-controlled loop. In while loop, a condition is evaluated before processing a body of the loop. If a condition is true then and only then the body of a loop is executed. After the body of a loop is executed then control again goes back at the beginning, and the condition is checked if it is true, the same process is executed until the condition becomes false. Once the condition becomes false, the control goes out of the loop.
 
@@ -51,30 +51,30 @@ After exiting the loop, the control goes to the statements which are immediately
 
 Following program illustrates while loop in C programming example:
 
-#include<stdio.h>
-#include<conio.h>
-int main()
-{
-	int num=1;	//initializing the variable
-	while(num<=10)	//while loop with condition
-	{
-		printf("%d\n",num);
-		num++;		//incrementing operation
-	}
-	return 0;
-}
+		#include<stdio.h>
+		#include<conio.h>
+		int main()
+		{
+			int num=1;	//initializing the variable
+			while(num<=10)	//while loop with condition
+			{
+				printf("%d\n",num);
+				num++;		//incrementing operation
+			}
+			return 0;
+		}
 Output:
 
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+		9
+		10
 
 **Do-While loop in C**
 
@@ -84,11 +84,11 @@ Syntax of do while loop in C programming language is as follows:
 
 **Syntax of Do-While Loop in C:**
 
-do {
+		do {
 
-statements
+		statements
 
-} while (expression);
+		} while (expression);
 
 As we saw in a while loop, the body is executed if and only if the condition is true. In some cases, we have to execute a body of the loop at least once even if the condition is false. This type of operation can be achieved by using a do-while loop.
 
@@ -100,29 +100,30 @@ The following loop program in C illustrates the working of a do-while loop:
 
 Below is a do-while loop in C example to print a table of number 2:
 
-#include<stdio.h>
-#include<conio.h>
-int main()
-{
-	int num=1;	//initializing the variable
-	do	//do-while loop 
-	{
-		printf("%d\n",2*num);
-		num++;		//incrementing operation
-	}while(num<=10);
-	return 0;
-}
+		#include<stdio.h>
+		#include<conio.h>
+		int main()
+		{
+			int num=1;	//initializing the variable
+			do	//do-while loop 
+			{
+				printf("%d\n",2*num);
+				num++;		//incrementing operation
+			}while(num<=10);
+			return 0;
+		}
 Output:
-2
-4
-6
-8
-10
-12
-14
-16
-18
-20
+
+		2
+		4
+		6
+		8
+		10
+		12
+		14
+		16
+		18
+		20
 
 
 ## For loop in C
@@ -131,13 +132,13 @@ A for loop is a more efficient loop structure in &#39;C&#39; programming. The ge
 
 ### Syntax of For Loop in C:
 
-for (initial value; condition; incrementation or decrementation )
+		for (initial value; condition; incrementation or decrementation )
 
-{
+		{
 
-statements;
+		statements;
 
-}
+		}
 
 - The initial value of the for loop is performed only once.
 - The condition is a Boolean expression that tests and compares the counter to a fixed value after each iteration, stopping the for loop when false is returned.
@@ -145,27 +146,28 @@ statements;
 
 Following program illustrates the for loop in C programming example:
 
-#include<stdio.h>
-int main()
-{
-	int number;
-	for(number=1;number<=10;number++)	//for loop to print 1-10 numbers
-	{
-		printf("%d\n",number);		//to print the number
-	}
-	return 0;
-}
+		#include<stdio.h>
+		int main()
+		{
+			int number;
+			for(number=1;number<=10;number++)	//for loop to print 1-10 numbers
+			{
+				printf("%d\n",number);		//to print the number
+			}
+			return 0;
+		}
 Output:
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
+
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+		9
+		10
 
 
 
