@@ -1,6 +1,6 @@
 # Table of contents
 
-* [C\_programming](README.md)
+
 * [\_includes](_includes/README.md)
   * [C Programming Introduction](_includes/c_intro.md)
   * [datatypes\_keywords](_includes/datatypes_keywords.md)
@@ -12,10 +12,11 @@
   * [goto statement in C/C++](_includes/goto.md)
   * [Break Statement in C/C++](_includes/break.md)
   * [Continue Statement in C/C++](_includes/continue.md)
+  * [loops in C](_includes/loops.md)
   * [c-functions](_includes/c-functions.md)
-  * [While calling a function, the arguments can be passed to a function in two ways, Call by value and c](_includes/c_function_arguments.md)
+  * [calling functions in C](_includes/c_function_arguments.md)
   * [C Library Functions](_includes/c_library_functions.md)
   * [Recursion](_includes/c_recursion.md)
-* [c\_functions](c_functions.md)
+
 * [index](index.md)
 
