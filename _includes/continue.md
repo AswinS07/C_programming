@@ -21,3 +21,4 @@ continue\_example.png
 continue\_ex\_output.png
 
 The _continue_ statement can be used with any other loop also like while or do while in a similar way as it is used with for loop above.
+

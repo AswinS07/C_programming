@@ -28,7 +28,7 @@ if(test_expression)
 
 Flowchart
 
-![](c-if.png)
+![](https://github.com/AswinS07/C_programming/tree/82e0997762ed854b7866a18af2d94261b81a2838/_includes/c-if.png)
 
 ## if-else Statement
 
@@ -49,7 +49,7 @@ else
 
 Flowchart
 
-![](c-if-else.png)
+![](https://github.com/AswinS07/C_programming/tree/82e0997762ed854b7866a18af2d94261b81a2838/_includes/c-if-else.png)
 
 ## Nested if-else Statement
 
