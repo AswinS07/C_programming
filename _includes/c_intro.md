@@ -8,7 +8,7 @@
 
 After the above discussion, we can formally assess the structure of a C program. By structure, it is meant that any program can be written in this structure only. Writing a C program in any other structure will hence lead to a Compilation Error. The structure of a C program is as follows:
 
-![](../.gitbook/assets/c_structure.png)
+![](c_structure.png)
 
 ### 2. **Header Files Inclusion:**
 
