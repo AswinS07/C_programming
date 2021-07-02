@@ -162,6 +162,19 @@ Example-
 ```
 
 In the above example , local variable will always print same value whenever function will be called whereas static variable will print the incremented value in each function call.
+# Scope 
+
+A scope is a region of the program, and the scope of variables refers to the area of the program where the variables can be accessed after its declaration.
+
+In C every variable defined in scope. You can define scope as the section or region of a program where a variable has its existence; moreover, that variable cannot be used or accessed beyond that region.
+
+In C programming, variable declared within a function is different from a variable declared outside of a function. The variable can be declared in three places. These are:
+
+|Position	         |         Type         |     
+|:----             |  :----                |   
+|Inside a function or a block.|	local variables|
+|Out of all functions.	   | Global variables|
+|In the function parameters.	|Formal parameters|
 
 # keywords in C
 
