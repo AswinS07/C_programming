@@ -10,7 +10,7 @@
 
 {% include c_storage_classes.md %}
 
-{% include ccontrol_statements.md %}
+{% include control_statements.md %}
 
 {% include goto.md %}
 
