@@ -1,4 +1,4 @@
-# storage Classes
+# Storage Classes
 
 Storage Classes are associated with variables for describing the features of any variable or function in the C program. These storage classes deal with features such as scope, lifetime and visibility which helps programmers to define a particular variable during the program's runtime. These storage classes are preceded by the data type which they had to modify.
 
