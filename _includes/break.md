@@ -25,7 +25,8 @@ Consider the situation where we want to search an element in an array. To do thi
 
 ![](breaksimpleloops.png)
 
-**Output:** Breaksimpleloopsoutput.png
+**Output:** 
+![](Breaksimpleloopsoutput.png)
 
 The above code runs fine with no errors. But the above code is not efficient. The above code completes all the iterations even after the element is found. Suppose there are **1000** elements in the array and the key to be searched is present at 1st position so the above approach will execute **999** iterations which are of no purpose and are useless. To avoid these useless iterations, we can use the break statement in our program. Once the break statement is encountered the control from the loop will return immediately after the condition gets satisfied. So will use the break statement with the if condition which compares the key with array elements as shown below:
 
