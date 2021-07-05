@@ -5,7 +5,17 @@
 
 An array is an **indexed** collection of data elements of the **same type**.
 1. **Indexed** means that the array elements are numbered starting from 0.
-3.  The restriction of the **same type** is an important one, because arrays are stored in consecutive memory cells. Every cell must be the same data type and therefore, the same size.
+2.  The restriction of the **same type** is an important one, because arrays are stored in consecutive memory cells. Every cell must be the same data type and therefore, the same size.
+
+```text
+Example:
+int age[5] = {13, 26, 57, 76, 45};
+```
+Here the array named 'age' declared with the datatype of integer(int). The array age is given a size of 5 and indexed as,
+
+| index number (of the array) | 0 | 1 |  2 | 3 | 4 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| array elements of age (name of the array) | 13 | 26 | 57 | 76 | 45 |
 
 ## **Declaration of Arrays**
 
