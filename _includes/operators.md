@@ -2,7 +2,14 @@
 
 * C language supports a rich set of built-in operators. An operator is a symbol that tells the compiler to perform a certain mathematical or logical manipulation. Operators are used in programs to manipulate data and variables.
 
-* C operators can be classified into following types: 1. Arithmetic operators 2. Relational operators 3. Logical operators 4. Bitwise operators 5. Assignment operators 6. Conditional operators 7. Special operators
+* C operators can be classified into following types: 
+1. Arithmetic operators 
+2. Relational operators 
+3. Logical operators 
+4. Bitwise operators 
+5. Assignment operators 
+6. Conditional operators 
+7. Special operators
 
 ## ARITHMETIC OPERATORS
 
