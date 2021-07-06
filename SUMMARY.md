@@ -1,6 +1,5 @@
 # Table of contents
 
-
 * [\_includes](_includes/README.md)
   * [C Programming Introduction](_includes/c_intro.md)
   * [datatypes\_keywords](_includes/datatypes_keywords.md)
