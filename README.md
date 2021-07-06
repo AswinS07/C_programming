@@ -1,4 +1,2 @@
-# C\_programming
-
-Sample wikisyllabus repo
+# Initial page
 
