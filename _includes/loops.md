@@ -16,7 +16,7 @@ In an entry control loop in C, a condition is checked before executing the body 
 
 In an exit controlled loop, a condition is checked after executing the body of a loop. It is also called as a post-checking loop.
 
-![](entryloopflow.png)
+![](assets/entryloopflow.png)
 
 &#39;C&#39; programming language provides us with three types of loop constructs:
 
