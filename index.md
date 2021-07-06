@@ -1,6 +1,3 @@
----
-layout: default
----
 
 {% include c_intro.md %}
 
