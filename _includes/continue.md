@@ -4,7 +4,7 @@ Continue is also a loop control statement just like the break statement. Continu
 
 As the name suggest the continue statement forces the loop to continue or execute the next iteration. When the continue statement is executed in the loop, the code inside the loop following the continue statement will be skipped and next iteration of the loop will begin.
 
-![](continue_syntax.png)
+![](assets/continue_syntax.png)
 
 **Example** :
 
@@ -14,11 +14,11 @@ Here comes the usage of continue statement. What we can do here is we can run a 
 
 Below is the implementation of the above idea:
 
-![](continue_example.png)
+![](assets/continue_example.png)
 
 **Output:**
 
-![](continue_ex_output.png)
+![](assets/continue_ex_output.png)
 
 The _continue_ statement can be used with any other loop also like while or do while in a similar way as it is used with for loop above.
 
