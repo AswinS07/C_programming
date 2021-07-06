@@ -32,3 +32,6 @@
 
 
 {% include c_arrays.md %}
+
+
+{% include strings.md %}
