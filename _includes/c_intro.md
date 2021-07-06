@@ -40,7 +40,7 @@ The next part of any C program is the variable declaration. It refers to the var
 
 The body of a function in the C program, refers to the operations that are performed in the functions. It can be anything like manipulations, searching, sorting, printing, etc. **Example:**
 
-```text
+```c
  int main()
 
  {
@@ -54,17 +54,11 @@ The body of a function in the C program, refers to the operations that are perfo
 
 The last part of any C program is the return statement. The return statement refers to the returning of the values from a function. This return statement and return value depend upon the return type of the function. For example, if the return type is void, then there will be no return statement. In any other case, there will be a return statement and the return value will be of the type of the specified return type. **Example:**
 
-```text
- int main()
 
- {
-
- int a;
-
- printf("%d";, a);
-
- return 0;
-
- }
+```c
+int main() {
+  int a;
+  printf("%d";, a);
+  return 0;
+}
 ```
-
