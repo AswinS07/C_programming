@@ -1,4 +1,4 @@
-# While calling a function, the arguments can be passed to a function in two ways, Call by value and c
+# calling functions in C
 
 ```text
 Type               Description

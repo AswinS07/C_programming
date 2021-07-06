@@ -29,7 +29,7 @@ C Constants is the most fundamental and essential part of the C programming lang
 
 #### Program Output:
 
-![](c-constants.jpg)
+![](https://github.com/AswinS07/C_programming/tree/82e0997762ed854b7866a18af2d94261b81a2838/_includes/c-constants.jpg)
 
 ## Constant Types in C
 
@@ -300,7 +300,7 @@ Unions are user-defined data type in C, which is used to store a collection of d
 
        C.Price = 0;
        printf( "Book Price : %d\n", C.Price);
-     } 
+     }
 ```
 
 #### Output:

@@ -1,15 +1,14 @@
 # OPERATORS
 
 * C language supports a rich set of built-in operators. An operator is a symbol that tells the compiler to perform a certain mathematical or logical manipulation. Operators are used in programs to manipulate data and variables.
-
-* C operators can be classified into following types: 
-1. Arithmetic operators 
-2. Relational operators 
-3. Logical operators 
-4. Bitwise operators 
-5. Assignment operators 
-6. Conditional operators 
-7. Special operators
+* C operators can be classified into following types:
+* Arithmetic operators 
+* Relational operators 
+* Logical operators 
+* Bitwise operators 
+* Assignment operators 
+* Conditional operators 
+* Special operators
 
 ## ARITHMETIC OPERATORS
 
@@ -69,7 +68,7 @@ Assignment operators supported by C language are as follows.
 | = | assigns values from right side operands to left side operand | a=b |
 | += | adds right operand to the left operand and assign the result to left | a+=b is same as a=a+b |
 | -= | subtracts right operand from the left operand and assign the result to left operand | a-=b is same as a=a-b |
-| \*= | mutiply left operand with the right operand and assign the result to left operand | a_=b is same as a=a_b |
+| \*= | mutiply left operand with the right operand and assign the result to left operand | a\_=b is same as a=a\_b |
 | /= | divides left operand with the right operand and assign the result to left operand | a/=b is same as a=a/b |
 | %= | calculate modulus using two operands and assign the result to left operand | a%=b is same as a=a%b |
 

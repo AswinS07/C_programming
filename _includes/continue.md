@@ -4,7 +4,7 @@ Continue is also a loop control statement just like the break statement. Continu
 
 As the name suggest the continue statement forces the loop to continue or execute the next iteration. When the continue statement is executed in the loop, the code inside the loop following the continue statement will be skipped and next iteration of the loop will begin.
 
-![](continue_syntax.png)
+![](https://github.com/AswinS07/C_programming/tree/96175073a8d88b095ec1de27f4244832f661b196/_includes/continue_syntax.png)
 
 **Example** :
 
@@ -14,11 +14,11 @@ Here comes the usage of continue statement. What we can do here is we can run a 
 
 Below is the implementation of the above idea:
 
-![](continue_example.png)
+![](https://github.com/AswinS07/C_programming/tree/96175073a8d88b095ec1de27f4244832f661b196/_includes/continue_example.png)
 
 **Output:**
 
-![](continue_ex_output.png)
+![](https://github.com/AswinS07/C_programming/tree/96175073a8d88b095ec1de27f4244832f661b196/_includes/continue_ex_output.png)
 
 The _continue_ statement can be used with any other loop also like while or do while in a similar way as it is used with for loop above.
 
