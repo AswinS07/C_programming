@@ -10,13 +10,13 @@ C Constants is the most fundamental and essential part of the C programming lang
 
 #### Syntax:
 
-```text
+```c
    const type constant_name;
 ```
 
 #### Example:
 
-```text
+```c
      #include<stdio.h>
        main()
        {
@@ -28,7 +28,6 @@ C Constants is the most fundamental and essential part of the C programming lang
 ```
 
 #### Program Output:
-
 ![](assets/c-constants.jpg)
 
 ## Constant Types in C

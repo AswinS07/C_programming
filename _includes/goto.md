@@ -29,6 +29,7 @@ Below are some examples on how to use goto statement:
 ![](assets/goto_example2.png)
 
 **Output:** 
+![](assets/goto_out1.png)
 
 ## **Disadvantages of using goto statement:**
 

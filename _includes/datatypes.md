@@ -3,7 +3,6 @@
 Data types specify how we enter data into our programs and what type of data we enter. C language has some predefined set of data types to handle various kinds of data that we can use in our program. These datatypes have different storage capacities.
 
 There are 4 Data types in C: 1. Basic 2. Derived 3. Void 4. Enumeration
-
 ![](assets/datatypes_c.png)
 
 ## BASIC DATATYPES

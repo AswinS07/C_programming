@@ -17,6 +17,7 @@ In an exit controlled loop, a condition is checked after executing the body of a
 
 ![](assets/entryloopflow.png)
 
+
 'C' programming language provides us with three types of loop constructs:
 
 1. The while loop

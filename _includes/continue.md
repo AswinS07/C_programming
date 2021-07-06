@@ -4,6 +4,7 @@ Continue is also a loop control statement just like the break statement. Continu
 
 As the name suggest the continue statement forces the loop to continue or execute the next iteration. When the continue statement is executed in the loop, the code inside the loop following the continue statement will be skipped and next iteration of the loop will begin.
 
+
 ![](assets/continue_syntax.png)
 
 **Example** :
