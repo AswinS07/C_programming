@@ -18,3 +18,4 @@
   * [C Library Functions](_includes/c_library_functions.md)
   * [Recursion](_includes/c_recursion.md)
   * [Arrays](_includes/c_arrays.md)
+  * [strings in C/C++](_includes/strings.md)
