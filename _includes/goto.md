@@ -22,13 +22,13 @@ Below are some examples on how to use goto statement:
 **Output:** 
 ![](assets/goto_out1.png)
 
-* ### **Type 2: :**
+ - ### **Type 2: :**
 In this case, we will see a situation similar to as shown in Syntax1 above. Suppose we need to write a program which prints numbers from 1 to 10 using the goto statement. Below program explains how to do this.
 
 ![](assets/goto_example2.png)
 
 **Output:** 
-![](assets/goto_out2.png)
+[](assets/goto_out2.png)
 
 ## **Disadvantages of using goto statement:**
 
