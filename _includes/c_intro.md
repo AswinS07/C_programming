@@ -8,7 +8,7 @@
 
 After the above discussion, we can formally assess the structure of a C program. By structure, it is meant that any program can be written in this structure only. Writing a C program in any other structure will hence lead to a Compilation Error. The structure of a C program is as follows:
 
-![](https://github.com/AswinS07/C_programming/tree/82e0997762ed854b7866a18af2d94261b81a2838/_includes/c_structure.png)
+![](assets/c_structure.png)
 
 ### 2. **Header Files Inclusion:**
 
@@ -18,9 +18,8 @@ The first and foremost component is the inclusion of the Header files in a C pro
 
 The next part of a C program is to declare the main\(\) function. The syntax to declare the main function is: **Syntax to Declare the** **main method:**
 
-```text
+```c
  int main()
-
  {}
 ```
 
@@ -28,11 +27,8 @@ The next part of a C program is to declare the main\(\) function. The syntax to 
 
 The next part of any C program is the variable declaration. It refers to the variables that are to be used in the function. Please note that in the C program, no variable can be used without being declared. Also in a C program, the variables are to be declared before any operation in the function. **Example:**
 
-```text
- int main()
-
- {
-
+```c
+ int main() {
  int a;
 ```
 
@@ -41,13 +37,9 @@ The next part of any C program is the variable declaration. It refers to the var
 The body of a function in the C program, refers to the operations that are performed in the functions. It can be anything like manipulations, searching, sorting, printing, etc. **Example:**
 
 ```c
- int main()
-
- {
-
- int a;
-
- printf('%d";, a);
+ int main() {
+int a;
+printf('%d";, a);
 ```
 
 ### 6. **Return Statement:**

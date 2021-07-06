@@ -16,24 +16,21 @@ Call by Reference     Instead of copying variable; an address is passed to funct
 
 ### Example:
 
-```text
-  #include<stdio.h>
+```c
+  #include<stdio.h>         /* function declaration */
+  int addition(int num1, int num2);
+  int main() {
+    int answer;         /* local variable definition */    
+    int num1 = 10;
+    int num2 = 5;
 
-  /* function declaration */int addition(int num1, int num2);
+    answer = addition(num1,num2);         /* calling a function to get addition value */  
 
-  int main()
-  {
-      /* local variable definition */    int answer;
-      int num1 = 10;
-      int num2 = 5;
-
-      /* calling a function to get addition value */    answer = addition(num1,num2);
-
-      printf("The addition of two numbers is: %d\n",answer);
-      return 0;
+    printf("The addition of two numbers is: %d\n",answer);
+    return 0;
   }
 
-  /* function returning the addition of two numbers */int addition(int a,int b)
+  int addition(int a,int b)             /* function returning the addition of two numbers */
   {
       return a + b;
   }
@@ -47,24 +44,23 @@ The addition of two numbers is: 15
 
 ### Example:
 
-```text
+```c
   #include<stdio.h>
 
   /* function declaration */int addition(int *num1, int *num2);
 
-  int main()
-  {
-      /* local variable definition */    int answer;
+  int main() {
+      int answer;
       int num1 = 10;
       int num2 = 5;
 
-      /* calling a function to get addition value */    answer = addition(&num1,&num2);
+      answer = addition(&num1,&num2);       /* calling a function to get addition value */    
 
       printf("The addition of two numbers is: %d\n",answer);
       return 0;
   }
 
-  /* function returning the addition of two numbers */int addition(int *a,int *b)
+  int addition(int *a,int *b)             /* function returning the addition of two numbers */
   {
       return *a + *b;
   }
