@@ -4,11 +4,11 @@ The goto statement is a jump statement which is sometimes also referred to as un
 
 **Syntax** :
 
-![](https://github.com/AswinS07/C_programming/tree/82e0997762ed854b7866a18af2d94261b81a2838/_includes/goto_syntax.png)
+![](assets/goto_syntax.png)
 
 In the above syntax, the first line tells the compiler to go to or jump to the statement marked as a label. Here label is a user-defined identifier which indicates the target statement. The statement immediately followed after 'label:' is the destination statement. The 'label:' can also appear before the 'goto label;' statement in the above syntax.
 
-![](https://github.com/AswinS07/C_programming/tree/82e0997762ed854b7866a18af2d94261b81a2838/_includes/flowchart_goto_statement.png)
+![](assets/flowchart_goto_statement.png)
 
 Below are some examples on how to use goto statement:
 
@@ -18,13 +18,15 @@ Below are some examples on how to use goto statement:
 
   In this case, we will see a situation similar to as shown in Syntax1 above. Suppose we need to write a program where we need to check if a number is even or not and print accordingly using the goto statement. Below program explains how to do this:
 
-![](https://github.com/AswinS07/C_programming/tree/82e0997762ed854b7866a18af2d94261b81a2838/_includes/goto_example1.png) **Output:** ![](https://github.com/AswinS07/C_programming/tree/82e0997762ed854b7866a18af2d94261b81a2838/_includes/goto_out1.png)
+![](assets/goto_example1.png) 
+**Output:** 
+![](assets/goto_out1.png)
 
 * **Type 2: :**
 
   In this case, we will see a situation similar to as shown in Syntax1 above. Suppose we need to write a program which prints numbers from 1 to 10 using the goto statement. Below program explains how to do this.
 
-![](https://github.com/AswinS07/C_programming/tree/82e0997762ed854b7866a18af2d94261b81a2838/_includes/goto_example2.png)
+![](assets/goto_example2.png)
 
 **Output:** 
 

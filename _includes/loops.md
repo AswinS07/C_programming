@@ -15,7 +15,7 @@ In an entry control loop in C, a condition is checked before executing the body 
 
 In an exit controlled loop, a condition is checked after executing the body of a loop. It is also called as a post-checking loop.
 
-![](https://github.com/AswinS07/C_programming/tree/ca87dd6a1b80110ef751ba916cc0c36e3f5cd168/_includes/entryloopflow.png)
+![](assets/entryloopflow.png)
 
 'C' programming language provides us with three types of loop constructs:
 
@@ -36,7 +36,7 @@ A while loop is the most straightforward looping structure. While loop syntax in
 
 Syntax of While Loop in C:
 
-```text
+```c
     while (condition) {
 
     statements;
@@ -50,7 +50,7 @@ After exiting the loop, the control goes to the statements which are immediately
 
 Following program illustrates while loop in C programming example:
 
-```text
+```c
     #include<stdio.h>
     #include<conio.h>
     int main()
@@ -88,7 +88,7 @@ Syntax of do while loop in C programming language is as follows:
 
 **Syntax of Do-While Loop in C:**
 
-```text
+```c
     do {
 
     statements
@@ -106,7 +106,7 @@ The following loop program in C illustrates the working of a do-while loop:
 
 Below is a do-while loop in C example to print a table of number 2:
 
-```text
+```c
     #include<stdio.h>
     #include<conio.h>
     int main()
@@ -142,11 +142,8 @@ A for loop is a more efficient loop structure in 'C' programming. The general st
 
 ### Syntax of For Loop in C:
 
-```text
-    for (initial value; condition; incrementation or decrementation )
-
-    {
-
+```c
+    for (initial value; condition; incrementation or decrementation ) {
     statements;
 
     }
@@ -158,10 +155,9 @@ A for loop is a more efficient loop structure in 'C' programming. The general st
 
 Following program illustrates the for loop in C programming example:
 
-```text
+```c
     #include<stdio.h>
-    int main()
-    {
+    int main() {
         int number;
         for(number=1;number<=10;number++)    //for loop to print 1-10 numbers
         {

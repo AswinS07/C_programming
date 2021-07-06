@@ -29,7 +29,7 @@ C Constants is the most fundamental and essential part of the C programming lang
 
 #### Program Output:
 
-![](https://github.com/AswinS07/C_programming/tree/82e0997762ed854b7866a18af2d94261b81a2838/_includes/c-constants.jpg)
+![](assets/c-constants.jpg)
 
 ## Constant Types in C
 
@@ -153,13 +153,13 @@ A pointer is a variable in C, and pointers value is the address of a memory loca
 
 #### Syntax:
 
-```text
+```c
     type *variable_name;
 ```
 
 #### Example:
 
-```text
+```c
      int  *width;
      char  *letter;
 ```
@@ -184,7 +184,7 @@ The structure is a user-defined data type in C, which is used to store a collect
 
 #### Syntax:
 
-```text
+```c
     struct structureName
     {
        //member definitions
@@ -193,7 +193,7 @@ The structure is a user-defined data type in C, which is used to store a collect
 
 #### Example:
 
-```text
+```c
     struct Courses
     {
       char  WebSite[50];
@@ -206,7 +206,7 @@ The structure is a user-defined data type in C, which is used to store a collect
 
 #### Example:
 
-```text
+```c
       #include<stdio.h>
       #include<string.h>
 
@@ -235,7 +235,7 @@ The structure is a user-defined data type in C, which is used to store a collect
 
 #### Output:
 
-```text
+```c
     WebSite : w3schools.in
 
     Book Author: The C Programming Language
@@ -255,7 +255,7 @@ Unions are user-defined data type in C, which is used to store a collection of d
 
   **Syntax:**
 
-  ```text
+  ```c
       union unionName
        {
          //member definitions
@@ -264,7 +264,7 @@ Unions are user-defined data type in C, which is used to store a collection of d
 
   **Example:**
 
-  ```text
+  ```c
        union Courses
        {
          char  WebSite[50];
@@ -277,7 +277,7 @@ Unions are user-defined data type in C, which is used to store a collection of d
 
 #### Example:
 
-```text
+```c
      #include<stdio.h>
      #include<string.h>
 
@@ -305,7 +305,7 @@ Unions are user-defined data type in C, which is used to store a collection of d
 
 #### Output:
 
-```text
+```c
       WebSite : w3schools.in
 
       Book Author: The C Programming Language
@@ -319,13 +319,13 @@ In C programming, an enumeration type \(also called enum\) is a data type that c
 
 #### Syntax:
 
-```text
+```c
      enum flag {const1, const2, ..., constN};
 ```
 
 By default, const1 is 0, const2 is 1 and so on. You can change default values of enum elements during declaration \(if necessary\).
 
-```text
+```c
       // Changing default values of enum constants
        enum suit {
        club = 0,
