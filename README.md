@@ -1,4 +1,3 @@
 # Introduction
 
 Sample wikisyllabus repo
-
