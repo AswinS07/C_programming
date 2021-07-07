@@ -8,7 +8,7 @@ A variable in simple terms is a storage place which has some memory allocated to
 
 A typical variable declaration is of the form:
 
-```text
+```c
   type variable\_name;
 
   or for multiple variables:
@@ -24,7 +24,7 @@ Variable declaration refers to the part where a variable is first declared or in
 
 See the following C program for better clarification:
 
-```text
+```c
         #include <stdio.h>
         int main()
         {
@@ -47,7 +47,7 @@ See the following C program for better clarification:
 
 **Output:**
 
-```text
+```c
     a
 ```
 
@@ -73,7 +73,7 @@ to be initialized before use.
 
 Example –
 
-```text
+```c
         #include <stdio.h>
         void function() {
           int x = 10; // local variable
@@ -95,7 +95,7 @@ It is declared at the starting of program. It is available to all the functions.
 
 Example –
 
-```text
+```c
          #include <stdio.h>
 
         int x = 20;//global variable
@@ -117,7 +117,7 @@ Example –
 
 **Output**
 
-```text
+```c
     20
 
     20
@@ -133,7 +133,7 @@ It is declared with the static keyword.
 
 Example-
 
-```text
+```c
         #include <stdio.h>
         void function(){ 
         int x = 20;//local variable 
@@ -153,7 +153,7 @@ Example-
 
 **Output**
 
-```text
+```c
         30,40
 
         30,50
