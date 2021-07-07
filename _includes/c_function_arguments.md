@@ -1,16 +1,14 @@
 # calling functions in C
 
-```text
-Type               Description
 
-Call by Value          The actual parameter is passed to a function
-                      New memory area created for the passed parameters, can be used only within the function.
-                      The actual parameters cannot be modified here.
-
-Call by Reference     Instead of copying variable; an address is passed to function as parameters.
-                      Address operator(&) is used in the parameter of the called function.
-                      Changes in function reflect the change of the original variables.
-```
+| Type | Description |
+|------|-------------|
+| Call by Value | The actual parameter is passed to a function |
+|               | New memory area created for the passed parameters, can be used only within the function. |
+|               | The actual parameters cannot be modified here. |
+| Call by Reference | Instead of copying variable; an address is passed to function as parameters. |
+|                   | Address operator(&) is used in the parameter of the called function. |
+|                   | Changes in function reflect the change of the original variables. |
 
 ## Call by Value
 
