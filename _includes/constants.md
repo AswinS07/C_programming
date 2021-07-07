@@ -67,7 +67,7 @@ It simply contains a single character enclosed within ' and ' \(a pair of single
 
 ### Example:
 
-```text
+```c
 'X', '5', ';'
 ```
 
@@ -77,7 +77,7 @@ These are a sequence of characters enclosed in double quotes, and they may inclu
 
 ### Example:
 
-```text
+```c
 "Hello!", "2015", "2+1"
 ```
 
@@ -123,25 +123,23 @@ C supports some character constants having a backslash in front of it. The lists
 
   **Example:**
 
-  ```text
+  ```c
   double amount[5];
   ```
 
   **Initialize an array in C**
 
+  ```c
   int age\[5\]={22,25,30,32,35};
-
-  **Accessing array elements**
-
-  int myArray\[5\]; int n = 0;
-
-  ```text
-  // Initializing elements of array seperately
   ```
 
-  for\(n=0;n&lt;sizeof\(myArray\)/sizeof\(myArray\[0\]\);n++\) { myArray\[n\] = n; }
-
-  ```text
+  **Accessing array elements**
+  
+  ```c
+  int myArray\[5\]; 
+  int n = 0;
+  // Initializing elements of array seperately
+    for\(n=0;n&lt;sizeof\(myArray\)/sizeof\(myArray\[0\]\);n++\) { myArray\[n\] = n; }
   int a = myArray[3]; // Assigning 3rd element of array value to integer 'a'.
   ```
 
