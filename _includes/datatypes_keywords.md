@@ -47,7 +47,7 @@ See the following C program for better clarification:
 
 **Output:**
 
-```c
+```text
     a
 ```
 
@@ -117,7 +117,7 @@ Example –
 
 **Output**
 
-```c
+```text
     20
 
     20
@@ -153,7 +153,7 @@ Example-
 
 **Output**
 
-```c
+```text
         30,40
 
         30,50
