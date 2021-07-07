@@ -5,21 +5,21 @@
 ### Syntax
 The syntax for a switch statement in C programming language is as follows − 
 
-'''
- switch(expression) {
+'''c
 
-   case constant-expression  :
-      statement(s);
-      break; /* optional */
-	
-   case constant-expression  :
-      statement(s);
-      break; /* optional */
-  
-   /* you can have any number of case statements */
-   default : /* Optional */
-   statement(s);
-}
+	 switch(expression) {
+	   case constant-expression  :
+	      statement(s);
+	      break; /* optional */
+
+	   case constant-expression  :
+	      statement(s);
+	      break; /* optional */
+
+	   /* you can have any number of case statements */
+	   default : /* Optional */
+	   statement(s);
+	}
 '''
 The following rules apply to a **switch** statement −
 
@@ -43,36 +43,36 @@ The following rules apply to a **switch** statement −
 
 ## Example
 
-'''
-#include <stdio.h>
- 
-int main () {
+'''c
 
-   /* local variable definition */
-   char grade = 'B';
+	#include <stdio.h>
+	int main () {
 
-   switch(grade) {
-      case 'A' :
-         printf("Excellent!\n" );
-         break;
-      case 'B' :
-      case 'C' :
-         printf("Well done\n" );
-         break;
-      case 'D' :
-         printf("You passed\n" );
-         break;
-      case 'F' :
-         printf("Better try again\n" );
-         break;
-      default :
-         printf("Invalid grade\n" );
-   }
-   
-   printf("Your grade is  %c\n", grade );
- 
-   return 0;
-}
+	   /* local variable definition */
+	   char grade = 'B';
+
+	   switch(grade) {
+	      case 'A' :
+		 printf("Excellent!\n" );
+		 break;
+	      case 'B' :
+	      case 'C' :
+		 printf("Well done\n" );
+		 break;
+	      case 'D' :
+		 printf("You passed\n" );
+		 break;
+	      case 'F' :
+		 printf("Better try again\n" );
+		 break;
+	      default :
+		 printf("Invalid grade\n" );
+	   }
+
+	   printf("Your grade is  %c\n", grade );
+
+	   return 0;
+	}
 '''
 
 ### When the above code is compiled and executed, it produces the following result −
