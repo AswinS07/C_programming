@@ -44,7 +44,7 @@ C language supports following 3 logical operators. Suppose a = 1 and b = 0,
 | Operator | Description |
 | :--- | :--- |
 | && | Logical AND |
-|  | Logical OR |
+| \|\| | Logical OR |
 | ! | Logical NOT |
 
 ## BITWISE OPERATORS
@@ -54,7 +54,7 @@ Bitwise operators perform manipulations of data at bit level. These operators al
 | Operator | Description |
 | :--- | :--- |
 | & | Bitwise AND |
-|  | Bitwise OR |
+| \| | Bitwise OR |
 | ^ | Bitwise exclusive OR |
 | &lt;&lt; | left shift |
 | &gt;&gt; | right shift |
