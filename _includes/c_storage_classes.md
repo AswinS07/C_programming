@@ -4,12 +4,10 @@ Storage Classes are associated with variables for describing the features of any
 
 There are four storage classes types in C:
 
-```text
-  auto
-  register
-  static
-  extern
-```
+1. auto
+2. register
+3. static
+4. extern
 
 ## Auto Storage Class
 
@@ -17,13 +15,13 @@ Auto comes by default with all local variables as its storage class. The keyword
 
 ### Syntax:
 
-```text
+```c
         int roll; // contains auto by default
 ```
 
 is the same as:
 
-```text
+```c
   auto int roll;    // in addition, we can use auto keyword
 ```
 
@@ -35,7 +33,7 @@ This storage class is implemented for classifying local variables whose value ne
 
 ### Syntax:
 
-```text
+```c
   register int  counter;
 ```
 
@@ -43,7 +41,7 @@ Register variables are used when implementing looping in counter variables to ma
 
 ### Example:
 
-```text
+```c
         for(register int counter=0; counter<=9; counter++)
         {
         // loop body
@@ -58,7 +56,7 @@ On the other hand, global static variables can be accessed in any part of your p
 
 ### Example:
 
-```text
+```c
   static int var = 6;
 ```
 
@@ -68,7 +66,7 @@ The extern storage class is used to feature a variable to be used from within di
 
 ### Example 1 :
 
-```text
+```c
         #include <stdio.h>
 
         int val;
