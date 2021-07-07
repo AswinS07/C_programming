@@ -12,6 +12,7 @@
   * [goto statement in C/C++](_includes/goto.md)
   * [Break Statement in C/C++](_includes/break.md)
   * [Continue Statement in C/C++](_includes/continue.md)
+  * [Switch in c/c++](_includes/c_switch statement.md)
   * [loops in C](_includes/loops.md)
   * [c-functions](_includes/c-functions.md)
   * [calling functions in C](_includes/c_function_arguments.md)
