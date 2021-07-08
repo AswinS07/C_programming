@@ -15,7 +15,7 @@ There are four different types of if statement in C. These are:
 
 The basic format of if statement is:
 
-```text
+```c
 if(test_expression)
 {
     statement 1;
@@ -36,7 +36,7 @@ If else statements in C are also used to control the program flow based on some 
 
 The basic format of if else statement is:
 
-```text
+```c
 if(test_expression)
 {
    //execute your code
@@ -57,7 +57,7 @@ Nested if-else statements play an important role in C programming, it means you 
 
 The basic format of Nested if-else statement is:
 
-```text
+```c
 if(test_expression one)
 {
    if(test_expression two) {
@@ -77,7 +77,7 @@ else-if statements in C is like another if condition, it's used in a program whe
 
 The basic format of else-if statement is:
 
-```text
+```c
 if(test_expression)
 {
    //execute your code

@@ -14,17 +14,15 @@ C function is a self-contained block of statements that can be executed repeated
 
 ## **There are two types of functions in C**
 
-```text
-## **Built-in(Library) Functions**
+#### **Built-in(Library) Functions :**
 
-        The system provided these functions and stored in the library. Therefore it is also called Library Functions.
-        e.g. scanf(), printf(), strcpy, strlwr, strcmp, strlen, strcat etc.
-        To use these functions, you just need to include the appropriate C header files.
+The system provided these functions and stored in the library. Therefore it is also called Library Functions.
+e.g. scanf(), printf(), strcpy, strlwr, strcmp, strlen, strcat etc.
+To use these functions, you just need to include the appropriate C header files.
 
-## **User Defined Functions**
+#### **User Defined Functions :**
 
-       These functions are defined by the user at the time of writing the program.
-```
+ These functions are defined by the user at the time of writing the program.
 
 ### **Parts of Function**
 
@@ -42,7 +40,7 @@ dataType functionName \(Parameter List\)
 
 **Example:**
 
-```text
+```c
   int addition();
 ```
 
@@ -50,7 +48,7 @@ dataType functionName \(Parameter List\)
 
 **Syntax:**
 
-```text
+```c
               returnType functionName(Function arguments){
                   //body of the function 
                   }
@@ -67,7 +65,7 @@ dataType functionName \(Parameter List\)
 
 **Example**
 
-```text
+```c
   #include<stdio.h>
         /* function declaration */int addition();
   int main()
@@ -90,7 +88,6 @@ return 0;
 
 ### Program Output:
 
-```text
-  The addition of the two numbers is: 15
-```
+The addition of the two numbers is: 15
+
 

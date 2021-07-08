@@ -10,7 +10,7 @@ Recursion can be defined as the technique of replicating or doing again an activ
 
 #### Example Syntax:
 
-```text
+```c
 void rec_prog(void) {
   rec_prog(); /* function calls itself */}
 
@@ -26,7 +26,7 @@ C program allows you to do such calling of function within another function, i.e
 
 #### Example:
 
-```text
+```c
 #include<stdio.h>
 #include<conio.h>
 
@@ -51,7 +51,7 @@ int main(void) {
 
 #### Example:
 
-```text
+```c
   #include<stdio.h>
   #include<conio.h>
 

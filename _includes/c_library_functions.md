@@ -8,7 +8,7 @@ C program to Demonstrate the use of Library functions
 
 ## Example:
 
-```text
+```c
   #include<stdio.h>
   #include<ctype.h>
   #include<math.h>
