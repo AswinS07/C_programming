@@ -26,7 +26,7 @@ if(test_expression)
 
 'Statement n' can be a statement or a set of statements, and if the test expression is evaluated to true, the statement block will get executed, or it will get skipped.
 
-Flowchart
+Flowchart :
 
 ![](https://github.com/AswinS07/C_programming/tree/82e0997762ed854b7866a18af2d94261b81a2838/_includes/c-if.png)
 
@@ -47,7 +47,7 @@ else
 }
 ```
 
-Flowchart
+Flowchart :
 
 ![](https://github.com/AswinS07/C_programming/tree/82e0997762ed854b7866a18af2d94261b81a2838/_includes/c-if-else.png)
 
