@@ -71,7 +71,7 @@ It's scope is limited to function or block. It cannot be used outside the block.
 
 to be initialized before use.
 
-Example –
+Example :
 
 ```c
         #include <stdio.h>
@@ -93,7 +93,7 @@ A variable that is declared outside the function or block is called a global var
 
 It is declared at the starting of program. It is available to all the functions.
 
-Example –
+Example :
 
 ```c
          #include <stdio.h>
@@ -131,7 +131,7 @@ A variable that retains its value between multiple function calls is known as st
 
 It is declared with the static keyword.
 
-Example-
+Example :
 
 ```c
         #include <stdio.h>
