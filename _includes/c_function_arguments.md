@@ -35,8 +35,9 @@
 ```
 
 Program output:
-
+```text
 The addition of two numbers is: 15
+```
 
 ## Call by Reference
 
@@ -65,6 +66,7 @@ The addition of two numbers is: 15
 ```
 
 Program output:
-
+```text
 The addition of two numbers is: 15
+```
 

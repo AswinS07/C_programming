@@ -8,7 +8,7 @@ Recursion can be defined as the technique of replicating or doing again an activ
 
 ## Here's an example of how recursion works in a program:
 
-#### Example Syntax:
+Example Syntax:
 
 ```c
 void rec_prog(void) {
@@ -24,7 +24,7 @@ C program allows you to do such calling of function within another function, i.e
 
 ### Factorial Program
 
-#### Example:
+Example:
 
 ```c
 #include<stdio.h>
@@ -49,7 +49,7 @@ int main(void) {
 
 ### Fibonacci Program
 
-#### Example:
+Example:
 
 ```c
   #include<stdio.h>

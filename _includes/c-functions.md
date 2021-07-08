@@ -87,7 +87,7 @@ return 0;
 ```
 
 ### Program Output:
-
+```text
 The addition of the two numbers is: 15
-
+```
 

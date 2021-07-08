@@ -233,7 +233,7 @@ The structure is a user-defined data type in C, which is used to store a collect
 
 #### Output:
 
-```c
+```text
     WebSite : w3schools.in
 
     Book Author: The C Programming Language
@@ -303,7 +303,7 @@ Unions are user-defined data type in C, which is used to store a collection of d
 
 #### Output:
 
-```c
+```text
       WebSite : w3schools.in
 
       Book Author: The C Programming Language
