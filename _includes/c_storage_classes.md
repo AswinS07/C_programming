@@ -39,7 +39,7 @@ This storage class is implemented for classifying local variables whose value ne
 
 Register variables are used when implementing looping in counter variables to make program execution fast. Register variables work faster than variables stored in RAM \(primary memory\)
 
-### Example:
+Example:
 
 ```c
         for(register int counter=0; counter<=9; counter++)
@@ -54,7 +54,7 @@ This storage class uses static variables that are used popularly for writing pro
 
 On the other hand, global static variables can be accessed in any part of your program. The default value assigned is '0' by the C compiler. The keyword used to define this storage class is static.
 
-### Example:
+Example:
 
 ```c
   static int var = 6;
@@ -64,7 +64,7 @@ On the other hand, global static variables can be accessed in any part of your p
 
 The extern storage class is used to feature a variable to be used from within different blocks of the same program. Mainly, a value is set to that variable which is in a different block or function and can be overwritten or altered from within another block as well. Hence it can be said that an extern variable is a global variable which is assigned with a value that can be accessed and used within the entire program. Moreover, a global variable can be explicitly made an extern variable by implementing the keyword 'extern' preceded the variable name.
 
-### Example 1 :
+Example 1 :
 
 ```c
         #include <stdio.h>
