@@ -45,3 +45,18 @@ In the above example for loop will run ten times.
 #undef  LIMIT
 #define  LIMIT 20
 ```
+This tells the compiler to undefine existing LIMIT and set it as 20.
+
+```c
+#ifndef LIMIT
+    #define LIMIT 50
+#endif
+```
+This tells the compiler to define LIMIT, only if LIMIT isn't already defined.
+
+```c 
+#ifdef LIMIT
+ /* Your statements here */#endif
+```  
+This tells the compiler to do the process the statements enclosed if LIMIT is defined.
+
